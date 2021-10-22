@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphicEquality.Models"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphicEquality.Tests", "PolymorphicEquality.Tests\PolymorphicEquality.Tests.csproj", "{5DB38117-C497-4074-A053-FEF52F6A42E6}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PolymorphicEquality.Models.FSharp", "PolymorphicEquality.Models.FSharp\PolymorphicEquality.Models.FSharp.fsproj", "{F3B6B3DF-A5C6-43BA-A5EF-371622EB825B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "F#", "F#", "{DEB0E88C-F809-4D4B-8088-32B4F066B4D0}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PolymorphicEquality.Tests.FSharp", "PolymorphicEquality.Tests.FSharp\PolymorphicEquality.Tests.FSharp.fsproj", "{E57459C4-6294-4EFE-9E07-628394345C3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{5DB38117-C497-4074-A053-FEF52F6A42E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DB38117-C497-4074-A053-FEF52F6A42E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DB38117-C497-4074-A053-FEF52F6A42E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B6B3DF-A5C6-43BA-A5EF-371622EB825B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B6B3DF-A5C6-43BA-A5EF-371622EB825B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B6B3DF-A5C6-43BA-A5EF-371622EB825B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B6B3DF-A5C6-43BA-A5EF-371622EB825B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57459C4-6294-4EFE-9E07-628394345C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57459C4-6294-4EFE-9E07-628394345C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57459C4-6294-4EFE-9E07-628394345C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57459C4-6294-4EFE-9E07-628394345C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3B6B3DF-A5C6-43BA-A5EF-371622EB825B} = {DEB0E88C-F809-4D4B-8088-32B4F066B4D0}
+		{E57459C4-6294-4EFE-9E07-628394345C3C} = {DEB0E88C-F809-4D4B-8088-32B4F066B4D0}
 	EndGlobalSection
 EndGlobal
